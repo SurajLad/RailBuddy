@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_register">
+
+    <LinearLayout
+        android:id="@+id/form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lineup"
+        android:layout_centerInParent="true"
+        android:minWidth="320dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="SIGN UP WITH EMAIL"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/input_nameF"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/sub_bg"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/account"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:textSize="12dp" />
+
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sub_bg"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/email"
+            android:ems="10"
+            android:hint="Email-ID"
+            android:inputType="textWebEmailAddress"
+            android:paddingStart="20dp"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/input_contactno"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sub_bg"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/phone"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:paddingStart="20dp"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sub_bg"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/pass"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="By signing up, I agree to the Terms of Service and Privacy Policy."
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/BtnGoregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/greenbttn"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Register"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/form"
+        app:layout_constraintVertical_bias="0.093">
+
+        <TextView
+            android:id="@+id/acc_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textColor="#70757575" />
+
+        <TextView
+            android:id="@+id/BtnoldLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:text="Log In"
+            android:textColor="#f44336"
+            android:textStyle="bold" />
+    </LinearLayout>
+    -->
+</android.support.constraint.ConstraintLayout>
